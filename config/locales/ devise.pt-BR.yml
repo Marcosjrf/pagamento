@@ -26,7 +26,7 @@ pt-BR:
     registrations:
       signed_up: 'Conectado com sucesso. Se não autorizado, a confirmação foi enviada por email.'
       updated: 'A sua conta foi atualizada com sucesso.'
-      destroyed: 'Adeus! A sua conta foi cancelada com sucesso. Esperamos vê-lo novamente em breve.'
+      destroyed: 'A sua conta foi cancelada com sucesso. Esperamos vê-lo novamente em breve.'
     unlocks:
       send_instructions: 'Dentro de minutos, receberá um email com as instruções como desbloquear a sua conta.'
       unlocked: 'A sua conta foi desbloqueada com sucesso. Agora está conectado.'
