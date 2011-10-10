@@ -7,7 +7,7 @@ gem 'sqlite3', group: :development
 gem 'heroku', group: :development
 gem 'pg', group: :production
 
-gem 'devise'
+gem 'devise' 
 
 group :assets do
   gem 'sass-rails', "  ~> 3.1.0"
