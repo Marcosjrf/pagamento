@@ -17,9 +17,20 @@
   </div>
 
   <div class="field">
-    <%= f.label 'CNPJ/CPF' %><br />
-    <%= f.text_field :cnpj_cpf %>
+    <%= f.label 'Pessoa Jurídica?' %><br />
+    <%= f.check_box :pj %>
   </div>
+
+  <div id="cpf" class="field">
+    <%= f.label 'CPF' %><br />
+    <%= f.text_field :cpf %>
+  </div>
+
+  <div id="cnpj" class="field">
+    <%= f.label 'CNPJ' %><br />
+    <%= f.text_field :cnpj %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>

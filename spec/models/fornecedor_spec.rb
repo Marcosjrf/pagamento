@@ -21,11 +21,11 @@ describe Fornecedor do
     Fornecedor.new(nome: 'Empresa', cnpj:'64431280000175', cpf:'23953977172' ).should be_invalid
   end	
 
-  it "não aceita cpf e cnpj vazios ap mesmo tempo" do
+  it "não aceita cpf e cnpj vazios ao mesmo tempo" do
   	Fornecedor.new(nome: 'Apple').should be_invalid
   end	
 
-  it "obriga  cnpj se é pj" do
+  it "obriga cnpj se é pj" do
     Fornecedor.new(nome: 'Empresa', pj: true, cnpj:'64431280000175').should be_valid
     Fornecedor.new(nome: 'Empresa', pj: true, cpf:'23953977172').should be_invalid    
   end
