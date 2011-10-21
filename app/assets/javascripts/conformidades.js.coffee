@@ -1,3 +1,7 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+$ ->
+  $('#conformidade_data').datepicker({
+  	monthNames: ['janeiro', 'fevereiro', 'março', 'abril', 'maio',
+  	'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
+  	dayNamesMin: ['d', 's', 't', 'q', 'q', 's', 's' ]
+  	dateFormat: 'dd/mm/yy'
+  })
